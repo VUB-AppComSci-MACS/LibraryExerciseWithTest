@@ -78,6 +78,10 @@ public class main {
 
     }
 
+    /**
+     * Get random book type.
+     * @return 1 random book type.
+     */
     private static BookType getRandomBookType() {
         BookType[] bookTypes = BookType.class.getEnumConstants();
         int index = (int) (Math.random() * bookTypes.length);
